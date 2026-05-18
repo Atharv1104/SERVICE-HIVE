@@ -4,11 +4,7 @@ import { useAuthStore } from '../store/useAuthStore';
 import { useThemeStore } from '../store/useThemeStore';
 import { Button } from '../components/Button';
 
-const features = [
-  'Lead tracking with filters, search, sorting, and pagination',
-  'JWT authentication with Admin and Sales User roles',
-  'CSV export, dark mode, and Docker-ready deployment',
-];
+
 
 export function Landing() {
   const { user, logout } = useAuthStore();
